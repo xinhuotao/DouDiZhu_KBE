@@ -1,11 +1,13 @@
 import KBEngine
 from KBEDebug import *
+from CardLogic import CardLogic
 
 class Room(KBEngine.Entity):
 	"""Room cell 实体"""
 	def __init__(self):
 		super(Room, self).__init__()
 		print("Room cell entity created !!!")
+		self.m_cardLogic = None
 		self.players = {}
 		self.playerData = {}
 		self.seatIndex = 1
@@ -48,3 +50,6 @@ class Room(KBEngine.Entity):
 
 	def GameBegin():
 		# TODO: 洗牌，发牌
+		self.m_cardLogic = CardLogic()
+		self.m_cardLogic.shuffle()
+		

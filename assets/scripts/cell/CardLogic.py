@@ -14,6 +14,7 @@ class CardLogic:
 		for x in range(0, 54):
 			self.cardIndex.append(x)
 		# print(self.cardIndex)
+		
 		# 初始化牌
 		self.cards = [None] * 54
 		index = 0

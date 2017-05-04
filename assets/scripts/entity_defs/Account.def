@@ -3,26 +3,60 @@
 	</Properties>
 
 	<ClientMethods>
+		<!-- 创建房间 -->
 		<onCreateRoom>
 			<Exposed/>
 			<Arg> UNICODE </Arg>
 		</onCreateRoom>
 
+		<!-- 进入房间 -->
 		<onEnterRoom>
 			<Arg> UNICODE </Arg>
 		</onEnterRoom>
+
+		<!-- 准备 -->
+		<onReady>
+			<Arg> UNICODE </Arg>
+		</onReady>
+
+		<!-- 发牌 -->
+		<onDeal>
+			<Arg> UNICODE </Arg>
+		</onDeal>
+
+		<!-- 打牌 -->
+		<onPlay>
+			<Arg> UNICODE </Arg>
+		</onPlay>
+
+		<!-- 结算 -->
+		<onSettle>
+			<Arg> UNICODE </Arg>
+		</onSettle>
 	</ClientMethods>
 
 	<BaseMethods>
+		<!-- 创建房间 -->
 		<reqCreateRoom>
 			<Exposed/>
 			<Arg> UNICODE </Arg>
 		</reqCreateRoom>
 
+		<!-- 进入房间 -->
 		<reqEnterRoom>
 			<Exposed/>
 			<Arg> UINT32 </Arg>
 		</reqEnterRoom>
+
+		<!-- 准备 -->
+		<reqReady>
+			<Arg> UNICODE </Arg>
+		</reqReady>
+
+		<!-- 打牌 -->
+		<reqPlay>
+			<Arg> UNICODE </Arg>
+		</reqPlay>
 	</BaseMethods>
 
 	<CellMethods>

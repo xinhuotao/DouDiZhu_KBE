@@ -3,9 +3,6 @@
 	</Properties>
 
 	<ClientMethods>
-		<onEnterRoom>
-			<Arg> UNICODE </Arg>
-		</onEnterRoom>
 	</ClientMethods>
 
 	<BaseMethods>
