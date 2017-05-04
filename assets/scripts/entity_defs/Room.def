@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<onEnterRoom>
+			<Arg> UNICODE </Arg>
+		</onEnterRoom>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnter>
+			<Arg>		MAILBOX		</Arg>
+		</onEnter>
+	</CellMethods>
+
+</root>

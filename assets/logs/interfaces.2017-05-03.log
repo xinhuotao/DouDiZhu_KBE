@@ -1,0 +1,205 @@
+  INFO root [2017-05-03 09:44:56,404] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 09:44:56,404] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 09:44:56,420] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 09:44:56,420] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 09:44:56,467] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 09:44:56,467] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 09:44:56,467] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 3796 ----
+  INFO root [2017-05-03 09:44:56,467] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 09:44:56,467] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 09:44:56,467] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 09:44:56,592] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 09:44:56,592] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 09:44:56,592] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 09:44:56,607] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 09:44:56,607] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 09:44:56,607] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 09:44:56,623] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 09:44:56,654] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 09:44:56,654] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 09:44:56,670] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 09:44:56,670] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 09:44:56,888] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 09:44:56,888] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 09:45:04,183] - Components::process(): Found all the components!
+  WARN root [2017-05-03 09:46:19,663] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 09:47:19,723] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 09:47:19,723] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 09:47:19,739] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 09:47:19,739] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 09:47:19,786] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 09:47:19,786] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 09:47:19,786] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 4768 ----
+  INFO root [2017-05-03 09:47:19,786] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 09:47:19,786] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 09:47:19,786] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 09:47:19,911] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 09:47:19,911] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 09:47:19,911] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 09:47:19,926] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 09:47:19,926] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 09:47:19,926] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 09:47:19,957] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 09:47:19,973] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 09:47:19,973] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 09:47:19,989] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 09:47:20,004] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 09:47:20,285] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 09:47:20,285] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 09:47:27,601] - Components::process(): Found all the components!
+S_INFO root [2017-05-03 09:48:46,596] - onRequestCreateAccount: registerName=bot_6415719580496560128_12645910111517247136
+S_INFO root [2017-05-03 09:48:46,799] - onRequestAccountLogin: registerName=bot_6415719580496560128_12645910111517247136
+  WARN root [2017-05-03 10:09:54,315] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 10:10:00,711] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 10:10:00,727] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 10:10:00,727] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 10:10:00,727] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 10:10:00,774] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 10:10:00,774] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 10:10:00,774] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 6292 ----
+  INFO root [2017-05-03 10:10:00,774] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 10:10:00,774] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 10:10:00,774] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 10:10:00,914] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 10:10:00,961] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 10:10:00,992] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 10:10:00,992] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 10:10:01,008] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 10:10:01,008] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 10:10:01,257] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 10:10:01,257] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 10:10:08,543] - Components::process(): Found all the components!
+  WARN root [2017-05-03 10:10:37,902] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 10:11:45,762] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 10:11:45,762] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 10:11:45,762] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 10:11:45,762] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 10:11:45,824] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 10:11:45,824] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 10:11:45,824] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 916 ----
+  INFO root [2017-05-03 10:11:45,824] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 10:11:45,824] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 10:11:45,824] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 10:11:45,949] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 10:11:45,949] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 10:11:45,949] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 10:11:45,965] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 10:11:45,965] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 10:11:45,965] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 10:11:45,980] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 10:11:46,027] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 10:11:46,027] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 10:11:46,027] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 10:11:46,043] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 10:11:46,292] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 10:11:46,292] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 10:11:53,578] - Components::process(): Found all the components!
+S_INFO root [2017-05-03 10:12:34,247] - onRequestCreateAccount: registerName=bot_6415725712153837568_13259075839261247136
+S_INFO root [2017-05-03 10:12:34,450] - onRequestAccountLogin: registerName=bot_6415725712153837568_13259075839261247136
+  WARN root [2017-05-03 10:14:32,155] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 10:19:13,066] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 10:19:13,066] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 10:19:13,066] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 10:19:13,066] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 10:19:13,113] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 10:19:13,113] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 10:19:13,113] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 6396 ----
+  INFO root [2017-05-03 10:19:13,113] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 10:19:13,113] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 10:19:13,113] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 10:19:13,238] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 10:19:13,269] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 10:19:13,300] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 10:19:13,300] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 10:19:13,300] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 10:19:13,316] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 10:19:13,566] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 10:19:13,566] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 10:19:20,929] - Components::process(): Found all the components!
+S_INFO root [2017-05-03 10:19:56,816] - onRequestCreateAccount: registerName=bot_6415727610743422976_13449364294531547136
+S_INFO root [2017-05-03 10:19:57,128] - onRequestAccountLogin: registerName=bot_6415727610743422976_13449364294531547136
+  WARN root [2017-05-03 10:20:31,934] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 10:25:59,791] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 10:25:59,791] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 10:25:59,791] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 10:25:59,791] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 10:25:59,854] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 10:25:59,854] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 10:25:59,854] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 6576 ----
+  INFO root [2017-05-03 10:25:59,854] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 10:25:59,854] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 10:25:59,854] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 10:25:59,994] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 10:26:00,025] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 10:26:00,072] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 10:26:00,072] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 10:26:00,072] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 10:26:00,088] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 10:26:00,337] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 10:26:00,337] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 10:26:07,607] - Components::process(): Found all the components!
+S_INFO root [2017-05-03 10:26:50,099] - onRequestCreateAccount: registerName=bot_6415729389270007808_13626787456285247136
+S_INFO root [2017-05-03 10:26:50,395] - onRequestAccountLogin: registerName=bot_6415729389270007808_13626787456285247136
+  WARN root [2017-05-03 10:27:57,631] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-05-03 10:56:19,781] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-03 10:56:19,781] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+  INFO root [2017-05-03 10:56:19,781] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+  INFO root [2017-05-03 10:56:19,781] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+  INFO root [2017-05-03 10:56:19,844] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:30099 )
+  INFO root [2017-05-03 10:56:19,844] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:30099, SOMAXCONN=5.
+  INFO root [2017-05-03 10:56:19,844] - ---- interfaces Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F4697C602095C8BD3C136660102B7FD6. Config: Debug X86. Built: 21:11:38 Mar 28 2017. AppID: 3000. UID: 29585. PID: 6448 ----
+  INFO root [2017-05-03 10:56:19,844] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-05-03 10:56:19,859] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-03 10:56:19,859] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-03 10:56:19,984] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-03 10:56:20,015] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-03 10:56:20,047] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:34) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-03 10:56:20,047] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-03 10:56:20,062] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-03 10:56:20,062] - TelnetServer server is running on port 33000
+  INFO root [2017-05-03 10:56:20,327] - ---- interfaces is running ----
+ DEBUG root [2017-05-03 10:56:20,327] - Components::process(): Request for the process of identity...
+  INFO root [2017-05-03 10:56:27,675] - Components::process(): Found all the components!
+S_INFO root [2017-05-03 10:57:02,966] - onRequestCreateAccount: registerName=bot_6415737175342579712_14405394713475647136
+S_INFO root [2017-05-03 10:57:03,075] - onRequestCreateAccount: registerName=bot_6415737175342579712_14405394713475647137
+S_INFO root [2017-05-03 10:57:03,075] - onRequestCreateAccount: registerName=bot_6415737175342579712_14405394713475647138
+S_INFO root [2017-05-03 10:57:03,075] - onRequestCreateAccount: registerName=bot_6415737175342579712_14405394713475647139
+S_INFO root [2017-05-03 10:57:03,263] - onRequestAccountLogin: registerName=bot_6415737175342579712_14405394713475647136
+S_INFO root [2017-05-03 10:57:03,263] - onRequestAccountLogin: registerName=bot_6415737175342579712_14405394713475647137
+S_INFO root [2017-05-03 10:57:03,372] - onRequestAccountLogin: registerName=bot_6415737175342579712_14405394713475647138
+S_INFO root [2017-05-03 10:57:03,372] - onRequestAccountLogin: registerName=bot_6415737175342579712_14405394713475647139
+  WARN root [2017-05-03 10:59:41,769] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

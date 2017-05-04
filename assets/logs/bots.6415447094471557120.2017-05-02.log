@@ -1,0 +1,42 @@
+  INFO root [0x00003008] [2017-05-02 16:11:16,345] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003008] [2017-05-02 16:11:16,391] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:54434 )
+  INFO root [0x00003008] [2017-05-02 16:11:16,391] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:54434, SOMAXCONN=5.
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,423] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,438] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003008] [2017-05-02 16:11:16,469] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00003008] [2017-05-02 16:11:16,469] - Script::install(): KBExtra is successfully!
+  INFO root [0x00003008] [2017-05-02 16:11:16,469] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0A0C7DE03C7917F592D391CAD7A54761. Config: Debug. Built: 21:12:03 Mar 28 2017. AppID: 6415447094471557120. UID: 29585. PID: 10148 ----
+  INFO root [0x00003008] [2017-05-02 16:11:16,469] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00003008] [2017-05-02 16:11:16,469] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003008] [2017-05-02 16:11:16,485] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,594] - loaded script:Account(1).
+  INFO root [0x00003008] [2017-05-02 16:11:16,594] - TelnetServer server is running on port 51000
+ S_DBG root [0x00003008] [2017-05-02 16:11:16,594] - onInit::isReload:0
+  INFO root [0x00003008] [2017-05-02 16:11:16,594] - ---- bots is running ----
+ DEBUG root [0x00003008] [2017-05-02 16:11:16,594] - Components::process(): Request for the process of identity...
+ DEBUG root [0x00003008] [2017-05-02 16:11:23,177] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 9C B9 A6 63 60 F7 27 89 F8 34 B9 4F E1 0A 20 73
+  WARN root [0x00003008] [2017-05-02 16:11:23,177] - bots.cpp:284: Profile updateBots took 0.36 seconds
+  INFO root [0x00003008] [2017-05-02 16:11:23,177] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=68AB0B61C4A3C03CD0C0349737585262, entityDefMD5=F7C6ED928DA2B54855D4E9E1C12FD81B, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00003008] [2017-05-02 16:11:23,505] - ClientObject::onCreateAccountResult: bot_6415447094471557120_3844051684925998752 create is successfully!
+  INFO root [0x00003008] [2017-05-02 16:11:24,004] - ClientObject::onLoginSuccessfully: bot_6415447094471557120_3844051684925998752 addr=192.168.99.104:20015!
+ DEBUG root [0x00003008] [2017-05-02 16:11:24,004] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: AB 01 08 A5 D8 E5 E2 B6 4B 81 27 B1 A2 E8 42 D7
+  INFO root [0x00003008] [2017-05-02 16:11:24,098] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=04DE5A563B306FEA37F19432189DFE1B, entityDefMD5=F7C6ED928DA2B54855D4E9E1C12FD81B, addr:192.168.99.104:20015/0/0/0
+  INFO root [0x00003008] [2017-05-02 16:11:24,207] - Components::findComponents: find logger(1)...
+  INFO root [0x00003008] [2017-05-02 16:11:24,254] - Components::findComponents: found logger, addr:192.168.99.104:54395
+  INFO root [0x00003008] [2017-05-02 16:11:24,254] - Components::addComponent: reset orderLog, uid=29585!
+  INFO root [0x00003008] [2017-05-02 16:11:24,254] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003008] [2017-05-02 16:11:24,334] - Components::process(): Found all the components!
+  INFO root [0x00003008] [2017-05-02 16:11:24,396] - ClientObject::onCreatedProxies(bot_6415447094471557120_3844051684925998752): rndUUID=6415447127400841216 eid=11 entityType=Account!
+ S_DBG root [0x00003008] [2017-05-02 16:11:24,396] - Account::__init__:{}.
+  INFO root [0x00003008] [2017-05-02 16:11:24,396] - ClientObjectBase::createEntity: new Account (11)
+ DEBUG root [0x00003008] [2017-05-02 16:11:24,599] - ClientObjectBase::onPlayerEnterWorld: Account(11), isOnGround(0), appID(2).
+ DEBUG root [0x00003008] [2017-05-02 16:11:24,599] - ClientObjectBase::initSpaceData: spaceID(1), datasize=0.
+ DEBUG root [0x00003008] [2017-05-02 16:11:24,599] - ClientObjectBase::onEntityEnterSpace: PlayerAccount(11).
+  INFO root [0x00003008] [2017-05-02 16:12:24,258] - ClientApp::onChannelTimeOut: Channel 192.168.99.104:54395/0/0/0 timed out.

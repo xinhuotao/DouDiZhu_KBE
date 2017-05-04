@@ -1,0 +1,44 @@
+  INFO root [0x00003454] [2017-05-02 16:18:06,645] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003454] [2017-05-02 16:18:06,692] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:54621 )
+  INFO root [0x00003454] [2017-05-02 16:18:06,692] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:54621, SOMAXCONN=5.
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,723] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,754] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003454] [2017-05-02 16:18:06,770] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00003454] [2017-05-02 16:18:06,770] - Script::install(): KBExtra is successfully!
+  INFO root [0x00003454] [2017-05-02 16:18:06,785] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0A0C7DE03C7917F592D391CAD7A54761. Config: Debug. Built: 21:12:03 Mar 28 2017. AppID: 6415448855170646016. UID: 29585. PID: 14692 ----
+  INFO root [0x00003454] [2017-05-02 16:18:06,785] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00003454] [2017-05-02 16:18:06,785] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003454] [2017-05-02 16:18:06,785] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,895] - loaded script:Account(1).
+ ERROR root [0x00003454] [2017-05-02 16:18:06,895] - EntityDef::initialize: Could not load module[Room]
+ S_ERR root [0x00003454] [2017-05-02 16:18:06,895] - ImportError: No module named 'Room'
+ ERROR root [0x00003454] [2017-05-02 16:18:06,895] - app::initialize is error!
+ DEBUG root [0x00003454] [2017-05-02 16:18:06,895] - ThreadPool::destroy(): starting size 1.
+  WARN root [0x00003454] [2017-05-02 16:18:07,207] - ThreadPool::destroy(): waiting for thread(1)[0x4af0d0,], try=1
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - TPThread::~TPThread(): 0x4af0d0
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - UDPPacketReceiver::destroyObjPool(): size 0.
+ S_ERR root [0x00003454] [2017-05-02 16:18:07,628] - AttributeError: entities
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003454] [2017-05-02 16:18:07,628] - Script::uninstall(): is successfully!
+  INFO root [0x00003454] [2017-05-02 16:18:07,628] - EventDispatcher()::~EventDispatcher: Num timers = 1

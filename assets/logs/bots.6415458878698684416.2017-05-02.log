@@ -1,0 +1,288 @@
+  INFO root [0x000047ec] [2017-05-02 16:57:00,336] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000047ec] [2017-05-02 16:57:00,383] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:55461 )
+  INFO root [0x000047ec] [2017-05-02 16:57:00,383] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:55461, SOMAXCONN=5.
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,414] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,429] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000047ec] [2017-05-02 16:57:00,461] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x000047ec] [2017-05-02 16:57:00,461] - Script::install(): KBExtra is successfully!
+  INFO root [0x000047ec] [2017-05-02 16:57:00,476] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0A0C7DE03C7917F592D391CAD7A54761. Config: Debug. Built: 21:12:03 Mar 28 2017. AppID: 6415458878698684416. UID: 29585. PID: 12420 ----
+  INFO root [0x000047ec] [2017-05-02 16:57:00,476] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+  INFO root [0x000047ec] [2017-05-02 16:57:00,476] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000047ec] [2017-05-02 16:57:00,476] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,585] - loaded script:Account(1).
+  INFO root [0x000047ec] [2017-05-02 16:57:00,601] - TelnetServer server is running on port 51000
+ S_DBG root [0x000047ec] [2017-05-02 16:57:00,601] - onInit::isReload:0
+  INFO root [0x000047ec] [2017-05-02 16:57:00,601] - ---- bots is running ----
+ DEBUG root [0x000047ec] [2017-05-02 16:57:00,601] - Components::process(): Request for the process of identity...
+ DEBUG root [0x000047ec] [2017-05-02 16:57:07,142] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: E4 E8 29 85 A1 23 95 F1 1F 38 6F A7 F6 A9 A8 9D
+  WARN root [0x000047ec] [2017-05-02 16:57:07,142] - bots.cpp:284: Profile updateBots took 0.36 seconds
+  INFO root [0x000047ec] [2017-05-02 16:57:07,189] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=68AB0B61C4A3C03CD0C0349737585262, entityDefMD5=F7C6ED928DA2B54855D4E9E1C12FD81B, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x000047ec] [2017-05-02 16:57:07,485] - ClientObject::onCreateAccountResult: bot_6415458878698684416_5022474397655598752 create is successfully!
+  INFO root [0x000047ec] [2017-05-02 16:57:07,891] - ClientObject::onLoginSuccessfully: bot_6415458878698684416_5022474397655598752 addr=192.168.99.104:20015!
+ DEBUG root [0x000047ec] [2017-05-02 16:57:07,891] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: E2 11 AC B1 C0 7E B4 51 F2 67 57 AD 22 1B 75 89
+  INFO root [0x000047ec] [2017-05-02 16:57:08,000] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=04DE5A563B306FEA37F19432189DFE1B, entityDefMD5=F7C6ED928DA2B54855D4E9E1C12FD81B, addr:192.168.99.104:20015/0/0/0
+  INFO root [0x000047ec] [2017-05-02 16:57:08,187] - Components::findComponents: find logger(1)...
+  INFO root [0x000047ec] [2017-05-02 16:57:08,281] - Components::findComponents: found logger, addr:192.168.99.104:55396
+  INFO root [0x000047ec] [2017-05-02 16:57:08,281] - Components::addComponent: reset orderLog, uid=29585!
+  INFO root [0x000047ec] [2017-05-02 16:57:08,281] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000047ec] [2017-05-02 16:57:08,297] - Components::process(): Found all the components!
+  INFO root [0x000047ec] [2017-05-02 16:57:08,297] - ClientObject::onCreatedProxies(bot_6415458878698684416_5022474397655598752): rndUUID=6415458912791101440 eid=11 entityType=Account!
+ S_DBG root [0x000047ec] [2017-05-02 16:57:08,297] - Account::__init__:{}.
+  INFO root [0x000047ec] [2017-05-02 16:57:08,297] - ClientObjectBase::createEntity: new Account (11)
+ DEBUG root [0x000047ec] [2017-05-02 16:57:08,499] - ClientObjectBase::onPlayerEnterWorld: Account(11), isOnGround(0), appID(2).
+ DEBUG root [0x000047ec] [2017-05-02 16:57:08,499] - ClientObjectBase::initSpaceData: spaceID(1), datasize=0.
+ DEBUG root [0x000047ec] [2017-05-02 16:57:08,499] - ClientObjectBase::onEntityEnterSpace: PlayerAccount(11).
+  WARN root [0x000047ec] [2017-05-02 16:57:35,972] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x000047ec] [2017-05-02 16:57:36,190] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x000047ec] [2017-05-02 16:57:36,190] - ClientObjectBase::tickSend: serverCloased!
+  WARN root [0x000047ec] [2017-05-02 16:57:36,330] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,330] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,330] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,330] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,330] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,346] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,362] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000047ec] [2017-05-02 16:57:36,377] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ DEBUG root [0x000047ec] [2017-05-02 16:57:36,377] - PlayerAccount::~PlayerAccount(): 11

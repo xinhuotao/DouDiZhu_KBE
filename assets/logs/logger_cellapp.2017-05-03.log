@@ -1,0 +1,598 @@
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 105] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 105] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 120] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 120] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:50384 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:50384, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	internalAddr : 192.168.99.104:50384
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 167] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - Components::findLogger: found logger, addr:192.168.99.104:50350
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 3700 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 276] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 401] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 401] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 401] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 417] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 417] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 417] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 432] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 464] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 464] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 542] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 557] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 557] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:44:58 838] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:44:58 838] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:45:05 056] - EntityApp::checkTickPeriod: tick took 6213% (6.21 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:06 133] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:06 226] - Components::findComponents: found dbmgr, addr:192.168.99.104:50372
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:06 226] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:06 226] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:06 226] - Components::findComponents: found dbmgr, addr:192.168.99.104:50372
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:45:07 240] - EntityApp::checkTickPeriod: tick took 1185% (1.18 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:08 254] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:08 301] - Components::findComponents: found cellappmgr, addr:192.168.99.104:50375
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:08 301] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:08 301] - Components::findComponents: found cellappmgr, addr:192.168.99.104:50375
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:45:09 315] - EntityApp::checkTickPeriod: tick took 1170% (1.17 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:10 329] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:10 376] - Components::findComponents: found baseappmgr, addr:192.168.99.104:50370
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:10 376] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:10 376] - Components::findComponents: found baseappmgr, addr:192.168.99.104:50370
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:45:11 384] - EntityApp::checkTickPeriod: tick took 1132% (1.13 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 455] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 502] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 502] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 533] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 548] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:50382, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:50422/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 548] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:12 548] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:50382, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:50422/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:45:15 544] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=5, startGroupOrder=1, digest=F7C6ED928DA2B54855D4E9E1C12FD81B.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:15 544] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:45:15 544] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:15 653] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 2
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 2.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 3
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 3.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 4
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 4.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 5
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 5.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 6
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 6.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 7
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 7.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 8
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 8.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 9
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - Spaces::createNewSpace: new space(Room) 9.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:45:16 448] - EntityApp::createEntity: new Room 10
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:45:28 948] - Cellapp::lookApp: 192.168.99.104:50441/0/0/0
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 864] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 864] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 864] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 864] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:50585 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:50585, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	internalAddr : 192.168.99.104:50585
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:19 926] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 439] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 6676 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 439] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 439] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 439] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 564] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 564] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 564] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 580] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 580] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 580] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 611] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 642] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 642] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 658] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 658] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 673] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:21 923] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 09:47:21 923] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:47:28 147] - EntityApp::checkTickPeriod: tick took 6214% (6.21 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 177] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 224] - Components::findComponents: found logger, addr:192.168.99.104:50581
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 224] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 224] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 224] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 333] - Components::findComponents: found dbmgr, addr:192.168.99.104:50582
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 333] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 333] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:29 333] - Components::findComponents: found dbmgr, addr:192.168.99.104:50582
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:47:30 333] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:31 347] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:31 363] - Components::findComponents: found cellappmgr, addr:192.168.99.104:50584
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:31 363] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:31 363] - Components::findComponents: found cellappmgr, addr:192.168.99.104:50584
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:47:32 377] - EntityApp::checkTickPeriod: tick took 1138% (1.14 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:33 438] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:33 547] - Components::findComponents: found baseappmgr, addr:192.168.99.104:50583
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:33 547] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:33 547] - Components::findComponents: found baseappmgr, addr:192.168.99.104:50583
+ WARNING    cellapp-1 29585 8001  [2017-05-03 09:47:34 561] - EntityApp::checkTickPeriod: tick took 1216% (1.22 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 669] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 747] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 778] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 793] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 840] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:50586, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:50618/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 840] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:35 840] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:50586, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:50618/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 09:47:38 742] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=5, startGroupOrder=1, digest=F7C6ED928DA2B54855D4E9E1C12FD81B.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:47:38 742] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:47:38 742] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:47:38 835] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:47:39 740] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:47:39 740] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 09:47:39 740] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:47:39 740] - Room cell entity created !!!
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:47:55 639] - Cellapp::lookApp: 192.168.99.104:50627/0/0/0
+    INFO    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - EntityApp::createEntity: new Account 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - account ************************** 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - cell onEnter room: 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - Base id:3, utype:1, component=baseapp[7001], addr: 192.168.99.104:50618.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - getAoiRadius ********************* 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 09:48:47 548] - Room::debugAOI: 2 has no witness!
+   DEBUG    cellapp01 29585 8001  [2017-05-03 09:57:20 740] - Account::onWriteToDB(): 3.
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:02:20 749] - Account::onWriteToDB(): 3.
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:07:20 746] - Account::onWriteToDB(): 3.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 852] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 867] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 867] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 867] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:51263 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:51263, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	internalAddr : 192.168.99.104:51263
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:00 914] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 427] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 6868 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 427] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 427] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 427] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 552] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 552] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 552] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 552] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 552] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 568] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 599] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 630] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 630] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 646] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 646] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 646] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:02 880] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:02 880] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:10:09 104] - EntityApp::checkTickPeriod: tick took 6216% (6.22 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 181] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 243] - Components::findComponents: found logger, addr:192.168.99.104:51258
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 243] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 243] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 243] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 352] - Components::findComponents: found dbmgr, addr:192.168.99.104:51259
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 352] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 352] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:10 352] - Components::findComponents: found dbmgr, addr:192.168.99.104:51259
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:10:11 366] - EntityApp::checkTickPeriod: tick took 1264% (1.26 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:12 380] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:12 427] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51261
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:12 427] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:12 427] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51261
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:10:13 441] - EntityApp::checkTickPeriod: tick took 1138% (1.14 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:14 471] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:14 502] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51260
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:14 502] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:14 502] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51260
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:10:15 516] - EntityApp::checkTickPeriod: tick took 1123% (1.12 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 670] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 701] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 717] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 717] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 795] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51262, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51296/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 795] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:16 795] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51262, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51296/0/0/0.
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:10:18 901] - Cellapp::lookApp: 192.168.99.104:51305/0/0/0
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:10:19 790] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=5, startGroupOrder=1, digest=F7C6ED928DA2B54855D4E9E1C12FD81B.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:10:19 790] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:10:19 790] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:10:19 899] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:10:20 289] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:10:20 399] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:10:20 399] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:10:20 399] - Room cell entity created !!!
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:10:20 399] - AssertionError: KBEngine::Entity::__py_pySetAoiRadius: args require 2 args(float, float), gived 1! is script[Room].
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:45 996] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:45 996] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:45 996] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:45 996] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:51360 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:51360, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	internalAddr : 192.168.99.104:51360
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:46 058] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 587] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 5056 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 587] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 587] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 587] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 712] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 743] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 774] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 774] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 774] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:47 790] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:47 790] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:48 008] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:11:48 008] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:11:54 233] - EntityApp::checkTickPeriod: tick took 6216% (6.22 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 309] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 418] - Components::findComponents: found logger, addr:192.168.99.104:51353
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 418] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 418] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 418] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 528] - Components::findComponents: found dbmgr, addr:192.168.99.104:51354
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 528] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 528] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:55 528] - Components::findComponents: found dbmgr, addr:192.168.99.104:51354
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:11:56 542] - EntityApp::checkTickPeriod: tick took 1310% (1.31 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:57 602] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:57 618] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51357
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:57 618] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:57 618] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51357
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:11:58 632] - EntityApp::checkTickPeriod: tick took 1107% (1.11 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:59 708] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:59 802] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51355
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:59 802] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:11:59 802] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51355
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:12:00 816] - EntityApp::checkTickPeriod: tick took 1185% (1.18 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:01 924] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:01 986] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:01 986] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:02 002] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:02 017] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51358, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51392/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:02 017] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:02 017] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51358, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51392/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:12:05 028] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=5, startGroupOrder=1, digest=F7C6ED928DA2B54855D4E9E1C12FD81B.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:12:05 028] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:12:05 028] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:12:05 122] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:12:05 621] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:12:05 621] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:12:05 621] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:12:05 621] - Room cell entity created !!!
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:05 621] - AssertionError: Room::setAoiRadius: did not get witness.
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:12:07 321] - Cellapp::lookApp: 192.168.99.104:51401/0/0/0
+    INFO    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - EntityApp::createEntity: new Account 3
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - account ************************** 3
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - getAoiRadius ********************* 80.000000
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - position ************************* 0.000000 0.000000 0.000000
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - cell onEnter room: 3
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - Base id:3, utype:1, component=baseapp[7001], addr: 192.168.99.104:51392.
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - getAoiRadius ********************* 0.000000
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - position ************************* 0.000000 0.000000 0.000000
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:12:35 120] - Room::debugAOI: 2 has no witness!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 846] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 846] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 846] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 846] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:51554 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:51554, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	internalAddr : 192.168.99.104:51554
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 909] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - Components::findLogger: found logger, addr:192.168.99.104:51538
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 6192 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:13 987] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 127] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 158] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:14 174] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:14 174] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 190] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 190] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:14 190] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:14 424] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:19:14 424] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:19:20 679] - EntityApp::checkTickPeriod: tick took 6250% (6.25 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:21 740] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:21 849] - Components::findComponents: found dbmgr, addr:192.168.99.104:51544
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:21 849] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:21 849] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:21 849] - Components::findComponents: found dbmgr, addr:192.168.99.104:51544
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:19:22 863] - EntityApp::checkTickPeriod: tick took 1232% (1.23 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:23 940] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:24 033] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51549
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:24 033] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:24 033] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51549
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:19:25 034] - EntityApp::checkTickPeriod: tick took 1203% (1.20 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:26 037] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:26 053] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51543
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:26 053] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:26 053] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51543
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:19:27 067] - EntityApp::checkTickPeriod: tick took 1123% (1.12 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 159] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 221] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 221] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 237] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 237] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51551, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51591/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 237] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:28 237] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51551, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51591/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:19:31 232] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=4, startGroupOrder=1, digest=F7C6ED928DA2B54855D4E9E1C12FD81B.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:19:31 232] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:31 232] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:19:31 263] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:32 043] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:19:32 043] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:19:32 043] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:32 043] - Room cell entity created !!!
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:19:34 836] - Cellapp::lookApp: 192.168.99.104:51603/0/0/0
+    INFO    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - EntityApp::createEntity: new Account 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - account ************************** 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - cell onEnter room: 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - Account object at 0x003C5AB8.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - Traceback (most recent call last):
+  File "F:/Server_Study/kbengine/assets/scripts/cell\Room.py", line 19, in onEnter
+    playerEntity.allClients.onEnterRoom("account id: " + str(account.id))
+   S_ERR    cellapp01 29585 8001  [2017-05-03 10:19:57 939] - AttributeError: 'AllClients' object has no attribute 'onEnterRoom'
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 056] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 056] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 056] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 056] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:51804 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:51804, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	internalAddr : 192.168.99.104:51804
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:00 150] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 663] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 5388 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 663] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 663] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 663] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 788] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 835] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 850] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 850] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 866] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:01 866] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:01 866] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:02 084] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:26:02 084] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:26:08 312] - EntityApp::checkTickPeriod: tick took 6213% (6.21 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 398] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 429] - Components::findComponents: found logger, addr:192.168.99.104:51798
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 429] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 429] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 429] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 539] - Components::findComponents: found dbmgr, addr:192.168.99.104:51799
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 539] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 539] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:09 539] - Components::findComponents: found dbmgr, addr:192.168.99.104:51799
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:26:10 553] - EntityApp::checkTickPeriod: tick took 1248% (1.25 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:11 598] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:11 613] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51801
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:11 613] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:11 613] - Components::findComponents: found cellappmgr, addr:192.168.99.104:51801
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:26:12 627] - EntityApp::checkTickPeriod: tick took 1123% (1.12 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:13 688] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:13 797] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51800
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:13 797] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:13 797] - Components::findComponents: found baseappmgr, addr:192.168.99.104:51800
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:26:14 811] - EntityApp::checkTickPeriod: tick took 1201% (1.20 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 013] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 091] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 106] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 122] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 200] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51802, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51839/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 200] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:16 200] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:51802, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:51839/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:26:19 101] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=5, startGroupOrder=1, digest=F256FFDA37A3AD3D961D84D429352D01.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:26:19 101] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:19 101] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:26:19 211] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:20 209] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:26:20 209] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:26:20 209] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:20 209] - Room cell entity created !!!
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:26:27 900] - Cellapp::lookApp: 192.168.99.104:51847/0/0/0
+    INFO    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - EntityApp::createEntity: new Account 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - account ************************** 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - cell onEnter room: 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - Account object at 0x03305AB8.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:26:51 206] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 452] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 452] - Resmgr::initialize: KBE_ROOT=F:/Server_Study/kbengine/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 452] - Resmgr::initialize: KBE_RES_PATH=F:/Server_Study/kbengine/kbe/res/;F:/Server_Study/kbengine/assets/;F:/Server_Study/kbengine/assets/scripts/;F:/Server_Study/kbengine/assets/res/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 452] - Resmgr::initialize: KBE_BIN_PATH=F:/Server_Study/kbengine/kbe/bin/server/
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.99.104 ( 192.168.99.104:52354 )
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.99.104:52354, SOMAXCONN=5.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - server-configs:
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	internalAddr : 192.168.99.104:52354
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 530] - 	componentID : 8001
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - Components::findLogger: found logger, addr:192.168.99.104:52339
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - Components::addComponent[logger], uid=29585, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 21:12:39 Mar 28 2017. AppID: 8001. UID: 29585. PID: 6620 ----
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - Server : Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 624] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 749] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 780] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 811] - Script::install(): is successfully, Python=(3.4.2 (default, Mar 28 2017, 21:11:54) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 811] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 811] - loaded script:Account(1).
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:20 827] - loaded script:Room(3).
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:20 827] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:21 061] - ---- cellapp is running ----
+   DEBUG    cellapp-1 29585 8001  [2017-05-03 10:56:21 061] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:56:27 332] - EntityApp::checkTickPeriod: tick took 6269% (6.27 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:28 377] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:28 486] - Components::findComponents: found dbmgr, addr:192.168.99.104:52344
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:28 486] - Components::addComponent: reset orderLog, uid=29585!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:28 486] - Components::addComponent[dbmgr], uid=29585, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:28 486] - Components::findComponents: found dbmgr, addr:192.168.99.104:52344
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:56:29 500] - EntityApp::checkTickPeriod: tick took 1232% (1.23 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:30 577] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:30 670] - Components::findComponents: found cellappmgr, addr:192.168.99.104:52348
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:30 670] - Components::addComponent[cellappmgr], uid=29585, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:30 670] - Components::findComponents: found cellappmgr, addr:192.168.99.104:52348
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:56:31 684] - EntityApp::checkTickPeriod: tick took 1216% (1.22 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:32 778] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:32 856] - Components::findComponents: found baseappmgr, addr:192.168.99.104:52347
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:32 856] - Components::addComponent[baseappmgr], uid=29585, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:32 856] - Components::findComponents: found baseappmgr, addr:192.168.99.104:52347
+ WARNING    cellapp-1 29585 8001  [2017-05-03 10:56:33 870] - EntityApp::checkTickPeriod: tick took 1202% (1.20 seconds)!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 071] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 165] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 180] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 180] - Components::process(): Found all the components!
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 274] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:52353, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:52392/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 274] - Components::addComponent[baseapp], uid=29585, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:35 274] - ServerApp::onRegisterNewApp: uid:29585, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.99.104, intport:52353, extaddr:192.168.99.104, extport:20015,  from 192.168.99.104:52392/0/0/0.
+    INFO    cellapp-1 29585 8001  [2017-05-03 10:56:38 176] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=4, startGroupOrder=1, digest=F256FFDA37A3AD3D961D84D429352D01.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:56:38 176] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:56:38 176] - onInit::isReload:0
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:56:38 378] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:56:39 065] - onGlobalData: Hall
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:56:39 065] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 29585 8001  [2017-05-03 10:56:39 065] - EntityApp::createEntity: new Room 2
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:56:39 065] - Room cell entity created !!!
+   DEBUG    cellapp01 29585 8001  [2017-05-03 10:56:41 576] - Cellapp::lookApp: 192.168.99.104:52405/0/0/0
+    INFO    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - EntityApp::createEntity: new Account 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - account ************************** 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - cell onEnter room: 3
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account object at 0x004D5AB8.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 3 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+    INFO    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - EntityApp::createEntity: new Account 4
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - account ************************** 4
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 4 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - cell onEnter room: 4
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account object at 0x004D5C08.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 4 size=1, Seen=0, Pending=1, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 4 Account(3), position(0.0.0), dist=0, Seen=false
+    INFO    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - EntityApp::createEntity: new Account 5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - account ************************** 5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 5 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - cell onEnter room: 5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account object at 0x004D5D58.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 5 size=2, Seen=0, Pending=2, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 5 Account(4), position(0.0.0), dist=0, Seen=false
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 5 Account(3), position(0.0.0), dist=0, Seen=false
+    INFO    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - EntityApp::createEntity: new Account 6
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - account ************************** 6
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 6 size=0, Seen=0, Pending=0, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - cell onEnter room: 6
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account object at 0x004D5EA8.
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - getAoiRadius ********************* 80.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - position ************************* 0.000000 0.000000 0.000000
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 6 size=3, Seen=0, Pending=3, aoiRadius=80, aoiHyst=5
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 6 Account(5), position(0.0.0), dist=0, Seen=false
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 6 Account(4), position(0.0.0), dist=0, Seen=false
+   S_DBG    cellapp01 29585 8001  [2017-05-03 10:57:04 183] - Account::debugAOI: 6 Account(3), position(0.0.0), dist=0, Seen=false

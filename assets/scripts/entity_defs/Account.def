@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<onCreateRoom>
+			<Exposed/>
+			<Arg> UNICODE </Arg>
+		</onCreateRoom>
+
+		<onEnterRoom>
+			<Arg> UNICODE </Arg>
+		</onEnterRoom>
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqCreateRoom>
+			<Exposed/>
+			<Arg> UNICODE </Arg>
+		</reqCreateRoom>
+
+		<reqEnterRoom>
+			<Exposed/>
+			<Arg> UINT32 </Arg>
+		</reqEnterRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
