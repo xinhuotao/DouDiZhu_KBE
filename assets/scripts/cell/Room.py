@@ -37,6 +37,9 @@ class Room(KBEngine.Entity):
 		playerEntity.allClients.onEnterRoom("account id: " + str(account.id))
 
 	def onReady(self, account):
+		if account.id not in self.players:
+			return
+		proxy = self.players[account.id]
 		if account.id in self.playerData :
 			data = self.playerData[account.id]
 			if data["ready"] == 1 :
@@ -44,11 +47,11 @@ class Room(KBEngine.Entity):
 			data["ready"] = 1
 			self.readyNum += 1
 			# TODO: 广播给客户端
-
+			proxy.allClients.onReady("Ready! account id: " + str(account.id))
 			if self.readyNum >= self.MAX_PLAYER :
-				GameBegin()
+				GameBegin(proxy)
 
-	def GameBegin():
+	def GameBegin(account):
 		# TODO: 洗牌，发牌
 		self.m_cardLogic = CardLogic()
 		self.m_cardLogic.shuffle()
